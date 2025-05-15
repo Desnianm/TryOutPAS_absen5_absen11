@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/bola_satu"
+        android:title="Premier League" />
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/bola_satu"
+        android:title="La Liga" />
+    <item
+        android:id="@+id/nav_notifications"
+        android:icon="@drawable/collab"
+        android:title="Collab" />
+</menu>
