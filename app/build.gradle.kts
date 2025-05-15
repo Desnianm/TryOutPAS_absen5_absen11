@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.tryoutpas_absen5_absen11"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.tryoutpas_absen5_absen11"
@@ -33,6 +33,7 @@ android {
 
 dependencies {
 
+    implementation ("com.google.android.material:material:1.11.0")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
