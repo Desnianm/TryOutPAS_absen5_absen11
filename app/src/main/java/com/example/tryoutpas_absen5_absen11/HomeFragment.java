@@ -24,6 +24,9 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
+        rvpremiere = view.findViewById(R.id.rv_Premier);
+
+        rvpremiere.setLayoutManager(new LinearLayoutManager(getContext()));
         SoccerApi api = REtrofitClient.getInstance().create(SoccerApi.class);
         fetchJadwal(api);
         return view;
