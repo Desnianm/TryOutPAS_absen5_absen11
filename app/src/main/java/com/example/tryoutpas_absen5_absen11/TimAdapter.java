@@ -54,4 +54,5 @@ public class TimAdapter extends RecyclerView.Adapter<TimAdapter.ViewHolder> {
             ivbadge = itemView.findViewById(R.id.ivbadge);
         }
     }
+
 }
